@@ -33,7 +33,8 @@ DWORD WINAPI ClientThread(LPVOID lpParam)
     int ret;
     char buf[256];
     char user[32], pass[32], tmp[32];
-
+    
+//      DANG NHAP 
     while (1)
     {
         ret = recv(client, buf, sizeof(buf), 0);
